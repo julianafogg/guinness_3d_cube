@@ -1,18 +1,18 @@
 
-#mainDiv {
+.container {
     width: 400px;
     height: 400px;
     margin: 200px auto;
     perspective: 800px;
 }
 
-#boxDiv {
+.box {
     width: 400px;   
     transform-style: preserve-3d; 
     animation: rotate 15s linear infinite;
 }
 
-#boxDiv div {
+.box div {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -28,7 +28,6 @@
     background-repeat: no-repeat;
 
 }
-
 
 #back {
     transform: rotateY(180deg) translateZ(200px);
@@ -81,8 +80,6 @@
 
 
 .shadow {
-    
-    
     width:400px;
     height:400px;
     background: rgba(0,0,0,0.5);
